@@ -3,8 +3,8 @@ import read_csv as rc
 import charts as gc
 
 def run():
-  data = rc.read_csv('data.csv')
-  data = list(filter(lambda item: item['Continent'] == 'Europe', data))
+  data = rc.read_csv('./data.csv')
+  data = list(filter(lambda item: item['Continent'] == 'South America', data))
 
   countries = list(map(lambda x: x['Country/Territory'], data))
   percentages = list(map(lambda x: x['World Population Percentage'], data))
