@@ -10,7 +10,6 @@ def read_csv(ruta):
       world_population.append(data)
     return world_population
 
-
 # def delimitar_pais_rango(data):
 #   rango_pais = list(filter(lambda key: int(key['Rank']) >= 234, data))
 #   print(rango_pais)
