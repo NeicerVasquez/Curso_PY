@@ -16,7 +16,7 @@ def run():
 
 # Para graficar en barras el país y su población
   # Usando Pandas para leer un csv
-  # df = dataFrame
+  # df == dataFrame
   df = pd.read_csv('data.csv')
   df = df[df['Continent'] == 'Asia']
   
